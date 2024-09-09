@@ -20,20 +20,32 @@ The project enables **peer-to-peer asset transfers** without requiring an intern
 
 The core idea of SoloSafe involves multiple layers, including **Zero Knowledge Proofs**, peer-to-peer communication protocols, and a decentralized architecture powered by Starknet. Below is a high-level visual representation:
 
-   **   **    **       **   **    ** 
-   **   **    **       **   **    ** 
-   Peer-to-Peer Communication
-
-Bluetooth        WiFi  
-|                     |  
-
-|       |             |        |  
-| ZKPs  |   <—>     | ZKPs   |  
-|       |             |        |  
-
-|        Starknet         |  
-|-------------------------|  
----
+     **********************          **********************
+  *                    *          *                    *
+  *   Device 1 (User A) *          *   Device 2 (User B) *
+  *                    *          *                    *
+  **********************          **********************
+            |                               |
+            |   WiFi Hotspot / Bluetooth     |
+            |                               |
+  ***********************************************
+  *        Zero Knowledge Proofs (ZKPs)         *
+  ***********************************************
+                      |
+            ------------------------
+            |                      |
+  **************             **************
+  *    WiFi    *             * Bluetooth  *
+  **************             **************
+            |                      |
+  ***********************************************
+  *          Offline Peer-to-Peer Transfers      *
+  ***********************************************
+                      |
+          ****************************************
+          *      Starknet (zk-Rollups for          *
+          *    Scalability and Final Settlement)   *
+          ****************************************
 
 
 ## 📱 Supported Platforms

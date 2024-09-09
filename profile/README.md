@@ -24,15 +24,15 @@ The core idea of SoloSafe involves multiple layers, including **Zero Knowledge P
    **   **    **       **   **    ** 
    Peer-to-Peer Communication
 
-Bluetooth        WiFi
-|                     |
+Bluetooth        WiFi  
+|                     |  
 
-|       |             |        |
-| ZKPs  |   <—>     | ZKPs   |
-|       |             |        |
+|       |             |        |  
+| ZKPs  |   <—>     | ZKPs   |  
+|       |             |        |  
 
-|        Starknet         |
-|-------------------------|
+|        Starknet         |  
+|-------------------------|  
 ---
 
 

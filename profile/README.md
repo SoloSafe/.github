@@ -74,10 +74,10 @@ We welcome contributions to the SoloSafe project! Please follow our contribution
 
 ## 📬 Contact
 
-	•	🐦 Twitter
-	•	💬 Telegram
-	•	📂 GitHub
-	•	📧 info@solosafe.xyz
+	•	🐦 [X](https://x.com/SoloSafeProof)
+	•	💬 [Telegram](https://t.com/SoloSafe)
+	•	📂 [GitHub](https://github.com/SoloSafe)
+	•	📧 [info@solosafe.xyz](info@solosafe.xyz)
 
 ## 🛡️ License
 
